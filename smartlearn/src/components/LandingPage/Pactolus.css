@@ -1,0 +1,136 @@
+.pactolus {
+    width: 400px;
+    margin: 20px;
+    padding: 35px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background: rgba(255, 255, 255, 0.39);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    margin-right: 5%!important;
+    margin-left: 5%!important;
+  }
+
+  .pactolus-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .pactolus-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: "MongoDB Value Serif";
+    letter-spacing: 1px;
+    text-transform: capitalize;
+  }
+  .pactolus-name a{
+color:#7a3fb9;
+  }
+
+  .pactolus-price {
+    font-size: 18px;
+    color: #888888;
+    font-family:"Dutch801 Rm BT";
+    letter-spacing: 1.5px;
+  }
+
+  .chapter-list {
+    width: 100%;
+  }
+
+  .chapter {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+  }
+.chapterX{
+  font-size: 17px;
+  font-weight: bolder;
+  color: #000000c2;
+  margin-bottom: 5px;
+  letter-spacing: 1.5px;
+  font-family: "Dutch801 Rm BT";
+}
+
+  .chapter-title {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    font-family: "Euclid Circular A";
+  }
+
+  .add-to-cart-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+
+  .add-to-cart-btn:hover {
+    background-color: #0056b3;
+  }
+
+
+
+
+
+
+/* pop up description
+ */
+
+
+  .pop-up-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+
+  .pop-up-overlay .pop-up-content {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 500px;
+  }
+  .pop-up-overlay .pop-up-content p
+  {
+    margin-top: 20px;
+    white-space: pre-wrap;
+  }
+
+  .pop-up-overlay button {
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .pop-up-overlay button:hover {
+    background-color: blue;
+  }

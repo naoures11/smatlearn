@@ -1,0 +1,44 @@
+.popup-chapter{
+
+}
+.popup-chapter .popup-content{
+
+  height: 50%!important;
+  width: 35%!important;
+}
+.popup-chapter .popup-content{
+  overflow: hidden;
+
+}
+.popup-chapter .popup-body{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+  .CancelButton {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .CancelButton:hover {
+    background-color: #e53935;
+  }
+
+  .SaveButton {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  .SaveButton:hover {
+    background-color: #45a049;
+  }

@@ -1,0 +1,31 @@
+.pannel-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 7%;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+}
+
+.pannel-item:hover {
+  color: #5a076d;
+  transform: scale(1.05); /* Add a scaling effect on hover */
+  transition: color 0.3s ease, transform 0.3s ease; /* Add smooth transition */
+}
+.pannel-item.selected {
+  color: #4c6d9b;
+  font-weight: bold;
+}
+
+.pannel-item-icon {
+  padding-left: 15%;
+}
+
+.pannel-item-name {
+  flex: 1;
+  font-family: 'Judson';
+  font-weight: bolder;
+  font-size: 17px;
+  white-space: nowrap;
+  padding-right: 10%;
+}

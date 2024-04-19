@@ -1,0 +1,180 @@
+.pc{
+
+    width: 100%;
+    height: 90%;
+    /* margin-top: 1%; */
+    /* width: 25%; */
+    /* height: 80%; */
+    /* margin-left: auto; */
+    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.57) 0%, rgba(255, 255, 255, 0) 100%); */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-backdrop-filter: blur(20.5px);
+    border-radius: 20px;
+
+
+}
+.line-1{
+    display: flex;
+
+    align-items: flex-start;
+}
+.line-2{
+    width: 100%;
+    height: 100%;
+}
+
+.line-2-container{
+
+    width: 95%;
+    margin: 0 auto;
+
+}
+.pc img{
+    width: 100%;
+    height: 100%;
+    border-radius: 200px;
+}
+.prof-pic{
+
+    width: 22%;
+    height: 22%;
+    /* margin-left: 45%; */
+    margin: auto;
+    text-align: center;
+    margin-right: 0;
+
+}
+.editButton{
+    margin-left: auto;
+/* position: absolute; */
+/* top: 1%;
+right: 2%; */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.08em;
+
+color: #000000;
+}
+
+.pc h2{
+
+    font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 28px;
+letter-spacing: 0.08em;
+text-align: center;
+
+color: #000000;
+margin: 2% auto;
+}
+
+
+
+
+
+.profile-table {
+    margin: 0 auto;
+    font-size: 18px;
+    border-collapse: collapse;
+  }
+
+  .profile-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    font-family: "Comic Sans MS Italic";
+    font-weight: bold;
+  }
+  .profile-table td:nth-child(1) {
+ color: rgb(101, 101, 101);
+  }
+
+
+  .editButton {
+    cursor: pointer;
+  }
+
+  .changePasswordContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+  }
+  .changePassword{
+    width: fit-content;
+  }
+.updateCancelContainer{
+
+gap: 10px;
+  width: 100%;
+  text-align-last: center;
+  margin-top: 20px;
+
+}
+.update-btn{
+  margin-left:10px ;
+}
+
+
+.pc input
+  {
+   box-sizing: border-box;
+ padding-left:10px ;
+ height: 30px!important;
+ border-radius: 20px;
+ background: linear-gradient(90deg, rgba(128, 193, 202, 0.067) 1.53%, rgba(255, 255, 255, 0.0588) 53.51%, rgba(125, 183, 190, 0) 99.08%);
+ border: 0.5px solid #000000;
+ box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+ backdrop-filter: blur(2px);
+  }
+/*
+.password-popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+
+  .password-popup-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+
+  .password-popup {
+    position: relative;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    z-index: 2;
+  }
+
+  .password-popup h3 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .password-popup input[type='password'] {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+
+  .password-popup button {
+    margin-right: 5px;
+  } */

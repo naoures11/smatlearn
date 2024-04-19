@@ -1,0 +1,148 @@
+/* PopUpQuizz.css */
+
+.popup-container-quiz{
+    position: fixed;
+    overflow-y: scroll;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .popup-background-quiz {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity as needed */
+
+    z-index: 1000;
+  }
+  .popup-content-quiz{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    max-width: 1000px;
+    max-height: 70vh;
+    overflow-y: scroll;
+    width: 100%!important;
+    z-index: 1001;
+
+  }
+
+  .popup-content-quiz h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .quiz-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+ .quiz-table textarea{
+
+
+  resize: none;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+
+  box-sizing: border-box;
+
+  padding: 20px;
+
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgba(128, 193, 202, 0.067) 1.53%, rgba(255, 255, 255, 0.0588) 53.51%, rgba(125, 183, 190, 0) 99.08%);
+  border: 0.5px solid #000000;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(2px);
+
+ }
+
+ .correctChoicesTd{
+display: block;
+margin-bottom: 15px;
+
+ }
+ .correctChoicesTd label{
+  margin-left: 15px;
+  display: unset;
+
+   }
+  .quiz-table th,
+  .quiz-table td {
+    padding: 10px;
+    text-align: left;
+  }
+  .quiz-table input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+
+    box-sizing: border-box;
+
+
+
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(128, 193, 202, 0.067) 1.53%, rgba(255, 255, 255, 0.0588) 53.51%, rgba(125, 183, 190, 0) 99.08%);
+    border: 0.5px solid #000000;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+  }
+
+  .quiz-table th {
+    background-color: #c9b8c320;
+
+  }
+
+  .quiz-table input[type='text'],
+  .quiz-table input[type='radio'] {
+    margin-right: 5px;
+  }
+
+  .response-input-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .add-response-button,
+  .delete-response-button {
+    margin-left: 10px;
+    display: unset;
+  }
+
+  .actions-row {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .save-button,
+  .cancel-button {
+    margin-right: 10px;
+  }
+
+  .save-button {
+    background-color: #4caf50;
+    color: #fff;
+  }
+
+  .cancel-button {
+    background-color: #f44336;
+    color: #fff;
+  }
+
+  /* Add any additional styles or modifications as desired */

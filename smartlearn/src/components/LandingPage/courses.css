@@ -1,0 +1,12 @@
+.courses{
+
+    display: flex;
+    margin-top: 10px;
+flex-direction: column;
+min-height: 100vh;
+}
+.courses .our-courses-text{
+
+font-size: 30px;
+    margin-left: 20px;
+}

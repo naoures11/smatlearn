@@ -1,0 +1,29 @@
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f7f7f7;
+  }
+
+  .about-us-content {
+    width: 60%;
+  }
+
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+
+  .about-us-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }

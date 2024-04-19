@@ -1,0 +1,25 @@
+.ViewCourse{
+  /* background: linear-gradient(94.57deg, rgba(197, 159, 253, 0.497) 5.03%, rgba(137, 16, 109, 0.282) 94.21%); */
+
+background: linear-gradient(180deg, rgba(239, 204, 16, 0.2) 0%, rgba(144, 255, 242, 0.128) 111.18%), linear-gradient(64.14deg, #A6BFFF -1.42%, rgba(231, 136, 255, 0.18) 107.16%);
+  width: 100%;
+  height: 100%;
+    display: inline-flex;
+    overflow-y: hidden;
+
+
+}
+/* .ViewCourseBg{
+  position: absolute;
+  background: url("./image.png");
+
+  background-size: 100% 100%;
+  background-repeat: repeat-y;
+width: 100vw;
+height: 100vh;
+} */
+.ViewCourseBg img{
+  width: 100%;
+  height: 100%;
+}
+

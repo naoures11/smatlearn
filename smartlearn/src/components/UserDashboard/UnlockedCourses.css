@@ -1,0 +1,22 @@
+
+
+  .noitemsfound{
+    text-align: center;
+    margin:auto;
+    width: fit-content;
+    height:fit-content ;
+  }
+
+
+  .progress-wrap{
+    margin-top: 15%;
+  }
+  .progress{
+    width: 100%;
+    background-color: rgb(174, 168, 255);
+}
+.progress-bar{
+
+    background-color: #2e324bbe!important;
+    padding-left: 9px;
+}

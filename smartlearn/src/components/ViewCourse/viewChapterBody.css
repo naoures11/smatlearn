@@ -1,0 +1,91 @@
+.ViewChapterBody{
+
+    width: 85%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.39);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    overflow-y: scroll;
+}
+.video-player{
+     display: flex;
+      justify-content: center;
+      width: 100%;
+
+
+    }
+    .video-player div{
+        width: 100%!important;
+        height: 100%!important;
+
+    }
+.control-pannel{
+
+  margin-top: 1px;
+  width: 100%;
+  border: solid;
+  padding: auto;
+  background: rgba(255, 255, 255, 0.10);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+.control-pannel div{
+  width: fit-content;
+  margin: auto;
+  padding: 8px;
+}
+.control-pannel div svg{
+width: 100px!important;
+
+  }
+
+
+
+
+  .chapter-wrapper{
+    width: 60%;
+    margin: auto;
+
+  }
+.chapter-text{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+.chapter-name{
+  margin: 10px auto;
+  width: fit-content;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: 0.5px;
+  color: #333;
+
+
+}
+.next-button{
+  margin-right: auto;
+  width: fit-content;
+
+}
+.next-button:hover{
+  background-color: coral;
+}
+.next-button a{
+  color: black;
+  text-decoration: none;
+
+}
+.next-button-wrap{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+

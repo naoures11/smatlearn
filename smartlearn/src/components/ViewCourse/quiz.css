@@ -1,0 +1,143 @@
+/* .viewQuiz {
+  width: 80%;
+  height: 100vh;
+  background-color: rgba(240, 240, 240, 0.178);
+}
+
+.viewQuiz h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.viewQuiz form {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+.viewQuiz .question {
+  margin-bottom: 20px;
+}
+
+.viewQuiz .question p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.viewQuiz .choice {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.viewQuiz .choice input[type='checkbox'],
+.viewQuiz .choice input[type='radio'] {
+  margin-right: 10px;
+}
+
+.viewQuiz .choice label {
+  font-size: 16px;
+}
+
+.viewQuiz p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.viewQuiz .question.correct {
+  background-color: lightgreen;
+}
+
+.viewQuiz .question.incorrect {
+  background-color: lightcoral;
+} */
+
+
+/* quiz.css */
+
+.viewQuiz {
+  /* max-width: 800px; */
+  width: 40%;
+  height: 40%;
+  margin:auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  background: rgba(255, 255, 255, 0.39);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(2px);
+  border-radius: 20px;
+}
+.question-name{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+.question {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  background: rgba(255, 255, 255, 0.39);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(2px);
+}
+
+.question p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.choice {
+  margin-bottom: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+label {
+  font-size: 14px;
+}
+
+.correct {
+  border-color: #66bb6a;
+  background-color: #c8e6c9;
+}
+
+.incorrect {
+  border-color: #ef5350;
+  background-color: #ffcdd2;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2196f3;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0c7cd5;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+

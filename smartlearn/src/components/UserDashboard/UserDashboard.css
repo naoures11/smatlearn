@@ -1,0 +1,18 @@
+.course-progress .progress{
+    width: 500px;
+    background-color: azure;
+}
+.course-progress .progress-bar{
+    background-color: #92a0eebe!important;
+    padding-left: 9px;
+}
+.progress-bar *{
+    padding-left: 9px;
+}
+.course-progress div{
+    display: inline-flex;
+}
+.userprogress table
+{
+    width: 50%;
+}

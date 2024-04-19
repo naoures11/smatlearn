@@ -1,0 +1,147 @@
+.sidebar {
+  width: 15%;
+  height: 100vh;
+  background-color: #f4f4f4;
+  background: rgba(255, 255, 255, 0.39);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(2px);
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sidebar h3 {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.sidebar ul li {
+  margin-bottom: 8px;
+
+}
+/*
+.sidebar ul li {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.sidebar ul li:hover::before {
+  content: attr(data-description);
+  position: absolute;
+  top: -25px;
+  left: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 3px;
+  white-space: nowrap;
+} */
+
+
+
+.sidebar ul li h3:hover {
+  color: #0b60bb;
+  cursor: pointer;
+}
+
+.sidebar ul ul li:hover {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.sidebar ul li ul {
+  margin-left: 20px;
+}
+
+.sidebar ul li ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.sidebar .chat-button {
+  background-color: rgb(245, 238, 251);
+  border: 2px solid rgb(193, 193, 193);
+  position: fixed;
+  bottom: 2%;
+  width: 260px;
+  border-radius: 15px;
+}
+
+.unlocked {
+  color: rgb(47, 28, 63);
+}
+
+.locked {
+  color: rgb(198, 198, 198);
+}
+
+.chapters-list {
+  list-style: none;
+  padding: 0;
+}
+
+.chapter-item {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.sidebar .custom-link {
+  color: #333;
+  /* Set your desired link color */
+  text-decoration: none;
+  /* Remove underline */
+}
+
+
+.discussion{
+
+  border: #000 solid;
+  border-radius: 5px;
+
+  text-align: center;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 5px;
+  margin-bottom: auto;
+
+
+}
+.bottom{
+  display: inline-flex;
+  position: absolute;
+  bottom: 2%;
+  margin-left: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 0;
+}
+.bottom div{
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.bottom div:hover{
+
+  font-weight: bold;
+  color: #0b60bb;
+}
+.bottom a{
+  text-decoration: none!important;
+  color: black;
+
+}

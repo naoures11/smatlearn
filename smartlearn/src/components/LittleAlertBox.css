@@ -1,0 +1,58 @@
+.Alert-box {
+    display: flex;
+    position: fixed;
+
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    /* max-width: 280px; */
+    width: fit-content;
+    height: 60px;
+    border-radius: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 5px;
+  }
+
+  .Alert-box.visible {
+    opacity: 1;
+  }
+
+  .Alert-box.success {
+    background-color: #5cd160;
+  }
+
+  .Alert-box.error {
+    background-color: #ff4235;
+  }
+
+  .Alert-box .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    font-size: 20px;
+  }
+
+  .Alert-box .message {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: fit-content;
+    text-overflow: ellipsis;
+    font-weight: bold;
+  }
+
+
+
+  .Alert-box .cancel-icon:hover {
+    color: #fff;
+  }
